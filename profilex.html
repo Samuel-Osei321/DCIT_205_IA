@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University-of-Ghana</title>
+    <link rel="stylesheet" href="sheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+
+  <div class="text-box">
+    <h1>Student Profile</h1>
+    <p>
+
+    </p>
+    <a href="staff.html" class="hero-btn">Visite staff profile</a>
+  </div>
+    <section class="sub-headerrr">
+      <nav>
+        <a href="index.html"><img src="leeg.jpg" alt=""></a>
+        <div class="nav-links" id="naveLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="blog.html">Catalog</a></li>
+              <li><a href="Event.html">Resources</a></li>
+              <li><a href="contact-page.html">contact</a></li>
+              <li><a href="Event.html">Event</a></li>
+              <li><a href="profilex.html">Profile</a></li>
+
+                
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      
+      
+    </section>
+
+    <div class="comment-box">
+      <h3>Leave a comment</h3>
+      <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="text" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+
+      </form>
+    </div>
+
+     <!-------testimonuals------>
+     <section class="testimonuals">
+      <h1>Computer Science Executives</h1>
+      <p>Know Your Executives</p>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="libary.jpeg">
+          
+          <div>
+            <h3>Compssa President</h3>
+            James bless
+            
+          </div>
+
+        </div>
+        <div class="testimonial-col">
+          <img src="libary.jpeg">
+          <div>
+            <h3>Compssa Vice</h3>
+            steven Boison
+
+        </div>
+        
+      </div>
+    </section>
+    
+   <!---footer-->
+   <section class="footer">
+    <h4>About Us</h4>
+    <p>
+      How to Use Duet AI to Create Images for Slides & Backgrounds Your email has been sent Duet AI lets you describe an image <br> text to create images in Google Slides or generate a background in .
+    </p>
+    <div class="icons">
+      <img src="fb.png">
+      <img src="twitter.png">
+      <img src="instagram.png">
+      <img src="din.png">
+    </div>
+    <p>Made with<i class="fa af-heart-o"></i>by Easy Tutorials</p>
+
+
+   </section>
+
+       <!------JavaScript for Toggle menu --->
+    <script>
+
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "--200px";
+      }
+
+    </script>
+
+
+</body>
+</html>
